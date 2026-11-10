@@ -1,0 +1,10 @@
+sources = [
+    "rtl/*.sv",
+    "rtl/*.v",
+    "rtl/test/*.v",
+]
+include_dirs = ["rtl/include"]
+top_modules = ["Top"]
+exclude = [
+    "build",
+]
